@@ -1,0 +1,103 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe5cc; /* Light orange background color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #cc6600; /* Dark orange color */
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffd9b3; /* Very light orange background color */
+    border: 1px solid #ffb380; /* Light orange border color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 165, 77, 0.5); /* Light orange shadow */
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="time"],
+form input[type="password"],
+form textarea,
+form select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ffb380; /* Light orange border color */
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8000; /* Bright orange background color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #cc6600; /* Darker orange on hover */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #18e7e7; /* White background color */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ffb380; /* Light orange border color */
+    border-radius: 4px;
+}
+
+/* Chart styles */
+canvas {
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+    background-color: #ffd9b3; /* Light orange background color */
+    border: 1px solid #ffb380; /* Light orange border color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 165, 77, 0.5); /* Light orange shadow */
+}
+
+/* Different background colors for sections */
+/* Header background color */
+header {
+    background-color: #ff9933; /* Medium orange background color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Footer background color */
+footer {
+    background-color: #ff6600; /* Dark orange background color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
